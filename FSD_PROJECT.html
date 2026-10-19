@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Tourist Explorer – Team 18</title>
+<style>
+:root{--bronze:#b5762f;--ink:#1a1a1a;--cream:#fbe7c2;--paper:#fff}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Segoe UI",Roboto,Arial,sans-serif;background:var(--paper);color:var(--ink);min-height:100vh;display:flex;flex-direction:column;border-top:3px solid #000;border-bottom:3px solid var(--cream);position:relative}
+body::after{content:"";position:absolute;top:0;right:3%;width:64px;height:110px;background:var(--cream);border-radius:0 0 22px 22px}
+header{display:flex;align-items:center;gap:20px;padding:20px 5% 0}
+header img{width:92px;height:auto}
+header h2{flex:1;text-align:center;font-size:1.5rem;line-height:1.25;padding-right:92px}
+main{flex:1;text-align:center;padding:36px 5% 24px}
+h1{font-size:clamp(2.2rem,6vw,4rem);color:var(--bronze);letter-spacing:-.5px}
+.sub{font-size:clamp(1.2rem,2.8vw,1.9rem);margin-top:8px;font-weight:300}
+.by{font-weight:700;margin-top:6px}
+.actions{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin:38px 0 10px}
+.btn{display:inline-block;min-width:190px;padding:14px 32px;border-radius:999px;font-size:1.1rem;font-weight:700;text-decoration:none;border:2px solid var(--bronze);transition:transform .15s,background .15s,color .15s}
+.btn.primary{background:var(--bronze);color:#fff}
+.btn.ghost{background:#fff;color:var(--bronze)}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost:hover{background:var(--cream)}
+.btn.primary:hover{background:#9a6224}
+.btn:focus-visible{outline:3px solid #000;outline-offset:3px}
+.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:28px;text-align:left;max-width:1000px;margin:44px auto 0}
+.info h3{font-size:1.05rem;margin-bottom:6px}
+.info p{font-size:.95rem;line-height:1.6}
+.info .small{color:#333}
+@media(max-width:600px){header{flex-direction:column;text-align:center}header h2{padding-right:0}.btn{width:100%}}
+</style>
+</head>
+<body>
+<header>
+  <img src="logo.png" alt="Raghu Engineering College logo">
+  <h2>Raghu Engineering College (A)<br>Visakhapatnam</h2>
+</header>
+<main>
+  <h1>SMART TOURIST EXPLORER</h1>
+  <p class="sub">A Web-Based Tourism Guidance Mini Project</p>
+  <p class="by">Presented By: Team-18 • CSE (AI-ML)</p>
+
+  <div class="actions">
+    <a class="btn primary" href="Ab.html">Abstract</a>
+    <a class="btn ghost" href="Smart_Tourist_Explorer.html">Website</a>
+  </div>
+
+  <section class="info">
+    <div><h3>HEAD OF THE DEPARTMENT<br>CSE (AI/ML)</h3><p class="small">DR. G. SRIDEVI</p></div>
+    <div><h3>PROJECT GUIDE</h3><p class="small">Mr. K. SANDEEP KUMAR,<br>Assistant Professor</p></div>
+    <div><h3>TEAM MEMBERS</h3><p class="small">
+      24981A427T : K. Mahendra<br>24981A422C : K. Pardha Saradhi<br>24981A426D : M. Sudheer Yadhav<br>24981A428E : P. Sri Bindu<br>24981A42AF : N. Pravalika</p></div>
+  </section>
+</main>
+</body>
+</html>
